@@ -987,14 +987,14 @@ AWS_S3_OBJECT_PARAMETERS = {
 [Back to top](<#table-of-content>)
 
 ## Forking this repository
-- Locate the repository at this link [E Shop](https://github.com/).
+- Locate the repository at this link [E Shop](https://github.com/Marcopolo1975/E-Shop).
 - At the top of the repository, on the right side of the page, select "Fork" from the buttons available. 
 - A copy of the repository is now created.
 
 ## Cloning this repository
 To clone this repository follow the below steps: 
 
-1. Locate the repository at this link [E Shop](https://github.com/). 
+1. Locate the repository at this link [E Shop](https://github.com/Marcopolo1975/E-Shop). 
 2. Under **'Code'**, see the different cloning options, HTTPS, SSH, and GitHub CLI. Click the prefered cloning option, and then copy the link provided. 
 3. Open **Terminal**.
 4. In Terminal, change the current working directory to the desired location of the cloned directory.
