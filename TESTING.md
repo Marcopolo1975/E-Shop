@@ -6,7 +6,7 @@
   * [CSS](#css)
   * [JSHINT](#jshint)
   * [Python Validation - Pycodestyle](#python-validation---pycodestyle)
-  * [Lighthouse](#lighthouse)
+  * [Lighthouse](#pageSpeed-insights)
 - [Device Testing](#device-testing)
 - [Browser Testing](#browser-testing)
 - [Manual Testing](#manual-testing)
@@ -47,6 +47,8 @@
 
 ![Product Detail](docs/readme_images/productdetails.png)
 
+[Back to top](<#table-of-content>)
+
 *As a shopper I can view a specific category of products so I can browse the type of products I'm looking for.*
 - When clicking the 'Products' link in the navbar the dropdown menu will show all the different categories. Clicking any of these will take the user to the products page, showing only items from the category selected. The category selected will display as the page heading.
 
@@ -66,6 +68,8 @@
 - Located above the navbar is a search bar. On smaller screens, this bar becomes a search icon which when clicked will drop down the full bar. Any searched word will match itself to any text in the product's title, or description and display the results on the product's page.
 
 ![Search](docs/readme_images/searchbar.png)
+
+[Back to top](<#table-of-content>)
 
 *As a shopper, I can sort all products so that I can view products based on price or title.*
 - A sort box is located on the products page where users can sort all products by price in ascending or descending order and by title (A-Z). 
@@ -94,6 +98,8 @@
 ![Sign Out](docs/readme_images/signoutlink.png)
 ![Sign Out](docs/readme_images/signoutform.png)
 
+[Back to top](<#table-of-content>)
+
 *As a site user I can see my login status so that I know if I'm logged in or out.*
 
 - Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
@@ -116,6 +122,8 @@
 
 ![Order History](docs/readme_images/myprofile.png)
 
+[Back to top](<#table-of-content>)
+
 *As a site user I can recover my password in case I forget it so that I can recover access to my account.*
 - On the sign-in page, a link to recover your password is located underneath the sign-in button. This uses the AllAuth functionality to reset the user's password. 
 
@@ -137,6 +145,8 @@
 
 ![bag total](![Product Quantity ](docs/readme_images/addtobag.png))
 
+[Back to top](<#table-of-content>)
+
 *As a shopper I can view the contents of my shopping bag at any time so I can see what is included and the total cost.*
 - When the user clicks on the shopping bag icon in the nav bar they are taken to the shopping bag page which shows the products which the user has added to their cart, unit price, quantity and subtotal.
 - The bottom of the page shows the bag total, delivery costs and then the grand total.
@@ -152,6 +162,8 @@
 ![Update Delete buttons](docs/readme_images/quantityadjust.png)
 ![Update Delete buttons](docs/readme_images/bagupdated.png)
 
+[Back to top](<#table-of-content>)
+
 *As a shopper, I can see a summary of my shopping cart when I checkout so that I know what products are included and the total cost before I commit to purchasing.*
 - On the Checkout page the user can see a summary of the line items within their order including a thumbnail image, the product name, the quantity, the unit cost and the overall total order cost on the right-hand side.
 
@@ -164,6 +176,8 @@
 
 ![checkout](docs/readme_images/checckoutbutton.png)
 
+[Back to top](<#table-of-content>)
+
 *As a shopper checkout as a guest so I don't have to sign up for an account.*
 - Shoppers do not need an account to purchase any items. Regardless of whether a user is signed in, the checkout process remains the same.
 -  When the user completes the checkout form and presses submit their order should be completed.
@@ -175,6 +189,8 @@
 
 *As a shopper, I can receive an email confirmation of my order so that I have a record of my purchase.*
 - When the user has submitted their order they will receive a confirmation email to the email address they entered in their order form containing all the details of the order.
+
+[Back to top](<#table-of-content>)
 
 ### EPIC | Admin & Store Management
 *As a store owner, I can add/edit/delete products through an easy-to-use interface so that I can manage the store's contents.*
@@ -193,6 +209,8 @@
 ![delete product](docs/readme_images/deleteprod.png)
 ![delete product](docs/readme_images/prod-del-success.png)
 
+[Back to top](<#table-of-content>)
+
 *As a site owner, I can view and delete customer enquiries on the front-end without having to access the admin panel.*
 - When the site owner is logged in, an Enquiries Management option appears in the User drop-down menu.
 - When the site owner navigates to the Enquiries Management page they can see a list of user enquiries sorted from newest to oldest.
@@ -204,6 +222,8 @@
 - The site owner can choose to delete the enquiry or to go back to the list of enquiries.
 
 ![Enquiry Detail](docs/readme_images/enquirydetail.png)
+
+[Back to top](<#table-of-content>)
 
 ### EPIC | User Interaction
 *As a site user, I can submit an enquiry form so that I can contact the site owner.*
@@ -217,6 +237,8 @@
 ![Enquiry Form](docs/readme_images/enquirysubmit.png)
 ![Enquiry Form](docs/readme_images/enquirysent.png)
 
+
+[Back to top](<#table-of-content>)
 
 *As a site user, I can add / edit / delete a testimonial in relation to a consultation I received so that I can give my feedback.*
 - When a logged-in user clicks on the "Add Testimonial" button on the Testimonials page, they can see a user-friendly form where they can add a new Testimonial to the site.
@@ -238,6 +260,8 @@
 - The completed testimonial is automatically populated with the user's username and date underneath the body.
 
 ![Testimonials](docs/readme_images/testimonialspage.png)
+
+[Back to top](<#table-of-content>)
 
 *As a site user, I can read Reviews left by other customers so I see what feedback they gave on the Products.
 
@@ -274,6 +298,8 @@
 ![Reviews ](docs/readme_images/reviewupdated.png)
 ![Reviews ](docs/readme_images/reviewdeleted.png)
 
+
+[Back to top](<#table-of-content>)
 
 *As a user, I can sign up for the website's newsletter so that I can keep up to date with new products and promotions*
 - In the footer is a 'Newsletter' section. Here the user can input their email address to sign up.
@@ -320,6 +346,8 @@ There are no Errors in All HTML pages, there are a few warnings about Aria label
 
 ![HTML Warnings ](media/htmlvelidator.png)
 
+[Back to top](<#table-of-content>)
+
 ### CSS
 
 No errors were found when passing my CSS files through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -333,6 +361,8 @@ No errors were found when passing my CSS files through the official [W3C CSS Val
 *profile.css*
 ![profile.ccs validation](docs/readme_images/profilecsstest.png)
 
+
+[Back to top](<#table-of-content>)
 
 ### JSHINT
 All Javascript was passed through [Jshint](https://jshint.com/) with no issues.
@@ -349,6 +379,8 @@ All Javascript was passed through [Jshint](https://jshint.com/) with no issues.
 
 ![Checkout JS validation](docs/js_validation/stripe_elements.js_js.png)
 
+[Back to top](<#table-of-content>)
+
 **Bag**
 
 ![Bag JS validation](docs/js_validation/bag.html_js.png)
@@ -362,6 +394,8 @@ All Javascript was passed through [Jshint](https://jshint.com/) with no issues.
 ![Image Selector JS validation](docs/js_validation/add_image_js.png)
 
 
+[Back to top](<#table-of-content>)
+
 ### Python Validation - Pycodestyle
 Python testing was done using Pycodestyle to ensure there were no syntax errors.
 All python files are also testedone by one with CI python Linter, there are No syntax errors,
@@ -370,6 +404,8 @@ line too long warnings i have ignored.
 The only errors displayed (as per below screenshot) can be ignored. The majority are within automatically generated files with the exception of env.py and webhooks.py. 
 
 ![Python Linter Errors](docs/readme_images/pythontest.png) ![Python Linter Errors](docs/readme_images/pythontest1.png)
+
+[Back to top](<#table-of-content>)
 
 ### PageSpeed Insights
 
@@ -404,6 +440,8 @@ Lighthouse validation was run on all pages in order to check accessibility and p
 | Log Out                        |           89 |           100 |             100 | 100 |
 | Password Reset                 |           88 |           100 |             100 | 100 |
 
+
+[Back to top](<#table-of-content>)
 
 ## Device Testing
 
@@ -496,6 +534,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Sponsor Image Links              | Click                         | Open correct location in new tab                             | Pass      |
 
 
+[Back to top](<#table-of-content>)
+
 ### Home Page
 
 | Element                | Action | Expected Result                    | Pass/Fail |
@@ -558,6 +598,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Sign Out  button                | Click                                     | Success message confirming Sign Out  appears | Pass      |
 
 
+[Back to top](<#table-of-content>)
+
 ### Products
 
 | Element                         | Action  | Expected Result                                                                                | Pass/Fail |
@@ -579,6 +621,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Confirm Delete -  delete button | Click   | Success message appears confirming product deleted successfully                                | Pass      |
 
 
+[Back to top](<#table-of-content>)
+
 ### Product Detail
 
 | Element                  | Action                    | Expected Result                                                                              | Pass/Fail |
@@ -595,6 +639,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | If Superuser in session: |                           |                                                                                              |           |
 | Edit product link        | Click                     | Redirect to edit product page                                                                | Pass      |
 | Delete product link      | Click                     | Open delete confirmation  page                                                               | Pass      |
+
+[Back to top](<#table-of-content>)
 
 ### Products Management 
 
@@ -633,6 +679,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Confirm Delete -  cancel button | Click                 | Redirect to Products page                                                                                                | Pass      |
 | Confirm Delete -  delete button | Click                 | Delete product                                                                                                             | Pass      |
 | Confirm Delete -  delete button | Click                 | Success message appears confirming product deleted successfully                                                            | Pass      |
+
+[Back to top](<#table-of-content>)
 
 ### Bag
 
@@ -710,6 +758,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Order Confirmation                  | Display                         | Display Correct Order Details                                       | Pass      |
 | Keep Shopping! button               | Click                           | Redirect to products page                                           | Pass      |
 
+[Back to top](<#table-of-content>)
+
 ### Profile
 
 | Element                | Action            | Expected Result                                                                                                                | Pass/Fail |
@@ -729,6 +779,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Information Display    | Display           | All previous order information displays correctly                                                                              | Pass      |
 | Toast                  | On load           | Previous order info toast appears                                                                                              | Pass      |
 | Back to Profile button | Click             | Redirect to profile page                                                                                                       | Pass      |
+
+[Back to top](<#table-of-content>)
 
 ### Testimonials
 
@@ -776,6 +828,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Confirm Delete -  delete button     | Click                 | Delete Testimonial  from database                                                                                           | Pass      |
 | Confirm Delete -  delete button     | Click                 | Success message appears confirming Testimonial  deleted successfully                                                        | Pass      |
 
+[Back to top](<#table-of-content>)
+
 ### Contact
 
 | Element                       | Action                | Expected Result                                                                     | Pass/Fail |
@@ -814,14 +868,17 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Confirm Delete -  delete button | Click           | Success message appears confirming enquiry  deleted successfully                                                                      | Pass      |
 
 
+[Back to top](<#table-of-content>)
+
 ## Fixed Bugs
 
 **Deployment to Heroku**
 
 while deployment on heroku i i faced an complexed error. it was constantly showing up following error when attempting to deploy. 
 
-**error**
- from storages.backends.s3boto3 import S3Boto3Storage
+**Error**
+
+         from storages.backends.s3boto3 import S3Boto3Storage
          File "/app/.heroku/python/lib/python3.12/site-packages/storages/backends/s3boto3.py", line 3, in <module>
            from storages.backends.s3 import S3File as S3Boto3StorageFile  # noqa
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -906,6 +963,8 @@ stripe==9.9.0
 urllib3==1.24
 
 
+[Back to top](<#table-of-content>)
+
 **Order Confirmation Email**
 
 After setting up the sending original email functionality, order confirmation emails were not sent. however, webhooks were working with an error(500). 
@@ -922,6 +981,8 @@ The following part of the code in web-hook-hendler.py needed to be updated.
         grand_total = round(stripe_charge.amount / 100, 2) # updated
 
 i have updated this code and order Confirmation email started working.        
+
+[Back to top](<#table-of-content>)
 
 **Checkout form**
 
@@ -957,6 +1018,8 @@ I found [this](https://stackoverflow.com/questions/19619428/html5-form-validatio
 
 Ideally I would have preferred to find a way to perform full form validation before the payment is processed however due to time contraints I was unable to figure out a work around for the purpose of this project. A suggestion would be to create the order in the database `on submit` with a status of "Pending" and then process the Payment. Once the payment is processed successfully, update the order status to "complete" in the database. 
 
+[Back to top](<#table-of-content>)
+
 **Success Toast**
 
 Every time a success message appeared (for adding a testimonial, submitting enquiry etc.) and if the user had items in their shopping bag, the success message would display the bag contents as well as the message in the toast. I only wanted the shopping bag contents to display if the user has successfully added a product to their bag and not for other success messages. 
@@ -966,3 +1029,4 @@ After a bit of research I discovered I could add extra context into Django gener
 
 When I initially attempted to deploy to Heroku the build would fail with the error message "Could not build wheels for backports.zoneinfo". This was due to the fact that Heroku by default uses python version 3.10 which isn't compatible with backports.zoneinfo. In order to fix this I had to create a runtime.txt to specify the Python version for Heroku to install (python-3.8.13). However the next time I tried to deploy I got a further error "Requested runtime 'python-3.8.13' is not available for this stack (heroku-22)". After some research I realised that in order to use this version of Python I would have to use heroku-20 instead of heroku-22. I was able to downgrade the heroku version using the command `heroku stack:set heroku-20 -a app name` which resolved the issue and I was able to deploy the site. 
 
+[Back to top](<#table-of-content>)

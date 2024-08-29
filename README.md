@@ -35,7 +35,7 @@ The live link can be found here - [E Shop](https://e-shop-app-0892571914c8.herok
   * [Home Page](#home-page)
   * [User Account Pages](#user-account-pages)
   * [Profile](#profile)
-  * [Products](#home-decor--products-)
+  * [Products](#products-)
   * [Product Detail](#product-detail)
   * [Bag](#bag)
   * [Checkout](#checkout)
