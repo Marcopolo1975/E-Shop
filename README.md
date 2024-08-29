@@ -83,6 +83,8 @@ A visitor to E Shop would be someone who is most likely an adult who is interest
 - As a site user, I can read testimonials left by other customers so I see what feedback they gave to their shopping experience with the store.
 - As a site user, I can view pictures and the read the Views of other customers about the products and overall shopping experience with the Store so that I can      see quality of the products and credibility of the store and build trust on the Store.
 
+[Back to top](<#table-of-content>)
+
 #### EPIC | User Account and Profile
 - As a site user, I can register an account so that I can have a personal account.
 - As a site user, I can log in or log out of my account so that I can keep my account secure.
@@ -102,6 +104,7 @@ A visitor to E Shop would be someone who is most likely an adult who is interest
 - As a shopper, I can view an order confirmation after checkout so that I know my purchase was successful.
 - As a shopper, I can receive an email confirmation of my order so that I have a record of my purchase.
 
+[Back to top](<#table-of-content>)
 
 #### EPIC | Admin & Store Management
 - As a store owner, I can add/edit/delete products through an easy-to-use interface so that I can manage the store's contents.
@@ -113,6 +116,8 @@ A visitor to E Shop would be someone who is most likely an adult who is interest
 - As a site user, I can submit an enquiry form so that I can enquire about a Product.
 - As a site user, I can add / edit / delete a testimonial in relation to my perchase experience so that I can give my feedback.
 - As a site user, I can add / edit / delete a review and give Rating to Products so that I can express my satisfaction about a product and the Store.
+
+[Back to top](<#table-of-content>)
 
 #### User stories not yet implemented
 
@@ -181,6 +186,9 @@ The Lato font is the main font used for the body of the website. This font was i
 ![Testimonials](docs/wireframes/testimonials-Page.png)
 </details>
 
+
+[Back to top](<#table-of-content>)
+
 <details>
 
  <summary>Contact</summary>
@@ -208,6 +216,8 @@ The Lato font is the main font used for the body of the website. This font was i
 
 ![Order Confirmation](docs/wireframes/order-confirmation.png)
 </details>
+
+[Back to top](<#table-of-content>)
 
 <details>
 
@@ -238,6 +248,7 @@ The Lato font is the main font used for the body of the website. This font was i
 ![Sign Up](docs/wireframes/signup.png)
 </details>
 
+[Back to top](<#table-of-content>)
 <details>
 
  <summary>Log In</summary>
@@ -265,6 +276,8 @@ The 5 Epics listed above were documented within the Github project as Milestones
 Two relational databases were used to create this site - during production SQLite was used and then Postgres was used for the deployed Heroku version. Below is an image of how the database models relate to each other:
 
 ![Database Schema](docs/readme_images/databaseschema.png)
+
+[Back to top](<#table-of-content>)
 
 ## Security Features and Defensive Design
 ### User Authentication
@@ -309,6 +322,8 @@ Custom Error Pages were created to give the user more information on the error a
 
 - The navigation bar is visible at the top of every page and includes links to the other pages.
 
+[Back to top](<#table-of-content>)
+
 **Search Bar**
 
 ![Search](docs/readme_images/searchbar.png)
@@ -331,6 +346,8 @@ Custom Error Pages were created to give the user more information on the error a
 ![user menu](docs/readme_images/userdropdown.png)
 - The navigation bar is fully responsive, collapsing into a hamburger menu when the screen size becomes too small.
 - Hovering over the links will turn the font Black.
+
+[Back to top](<#table-of-content>)
 
 **Bag Icon**
 
@@ -366,6 +383,8 @@ Custom Error Pages were created to give the user more information on the error a
 
 ![Sign Up](docs/readme_images/signupform.png)
 
+[Back to top](<#table-of-content>)
+
 **Sign In**
 
 ![Sign In](docs/readme_images/signin.png)
@@ -386,6 +405,8 @@ Custom Error Pages were created to give the user more information on the error a
 ![Delivery Details](docs/readme_images/userprofile.png)
 - The delivery details section stores the user's delivery address and phone number.
 - The information provided here is used to autofill the delivery address when placing an order.
+
+[Back to top](<#table-of-content>)
 
 **Order History**
 
@@ -408,6 +429,8 @@ Custom Error Pages were created to give the user more information on the error a
 ![products](docs/readme_images/bedbathcategory.png)
 
 
+[Back to top](<#table-of-content>)
+
 - Each product card shows an image of the product, its title, rating, category and price.
 - If the user is a superuser, edit and delete buttons will appear at the bottom of the product card.
 
@@ -418,12 +441,16 @@ Custom Error Pages were created to give the user more information on the error a
 
 ![sort](docs/readme_images/sortproducts.png)
 
+[Back to top](<#table-of-content>)
+
 ### Product Detail
 
 ![Product Detail](docs/readme_images/productdetails.png)
 - When the user clicks on an individual product card they are taken to the full product details. The link is a bootstrap stretched link so clicking anywhere on the card will work.
 - The product detail page displays the product image, title, excerpt, price, rating, category and product details.
 - If the user is a superuser, edit and delete buttons will appear below these details.
+
+[Back to top](<#table-of-content>)
 
 **Quantity Buttons**
 
@@ -455,6 +482,8 @@ Custom Error Pages were created to give the user more information on the error a
 
 ![add product](docs/readme_images/prodaddedsuccess.png)
 
+[Back to top](<#table-of-content>)
+
 **Edit Product**
 
 ![edit product](docs/readme_images/productcard.png)
@@ -469,6 +498,8 @@ Custom Error Pages were created to give the user more information on the error a
 
 ![edit product](docs/readme_images/updateproductsuccess.png)
 
+[Back to top](<#table-of-content>)
+
 **Delete Product**
 
 ![delete product](docs/readme_images/deleteprod.png)
@@ -477,6 +508,8 @@ Custom Error Pages were created to give the user more information on the error a
 - The superuser will receive a success message notifying them that the product has been successfully deleted.
 
 ![delete product](docs/readme_images/prod-del-success.png)
+
+[Back to top](<#table-of-content>)
 
 ### Bag
 
@@ -490,6 +523,8 @@ Custom Error Pages were created to give the user more information on the error a
 - The quantity input box displays the product quantity the user has added to their bag.
 - The plus and minus buttons increase and decrease the input value.
 - If the value is set to 1 the minus quantity will be disabled. Respectively if the value is set to 99 the plus button is disabled.
+
+[Back to top](<#table-of-content>)
 
 **Update and Delete Buttons**
 
@@ -520,6 +555,8 @@ docs/readme_images/checkout1.png
 - If the user is signed in and has delivery information saved, the delivery details and email address will be automatically filled in.
 - If a user leaves a required field empty, inputs whitespace in a required field or includes text in the phone number field an error message will prompt the user to 'Fill in the field' or 'match the format requested'
 
+[Back to top](<#table-of-content>)
+
 **Order Summary**
 - The order summary section details all the items about to be purchased, along with the quantity, subtotal and a grand total.
 - Next to the order summary title will be a number reflecting the total number of items that appear in the order.
@@ -535,6 +572,8 @@ docs/readme_images/checkout1.png
 - If the payment form doesn't submit properly or the user closes the browser during the wait animation, the order will still be created in the database through the webhook. 
 - Once the payment is processed, the webhook will search the database to confirm the order exists. If it cannot find it, it will create one using the payment information.
 
+[Back to top](<#table-of-content>)
+
 **Confirmation**
 
 ![order_confirmation](docs/readme_images/checkoutsuccess.png)
@@ -542,6 +581,8 @@ docs/readme_images/checkout1.png
 This page summarises the completed order.
 - An email will be sent to the user with their order confirmation
 - At the end of the summary is a 'Keep Shopping' button that takes the user back to the Products page.
+
+[Back to top](<#table-of-content>)
 
 [Back to top](<#table-of-content>)
 
@@ -553,6 +594,8 @@ This page summarises the completed order.
 - When the user navigates to the Testimonials page they can see all testimonials left by previous clients. 
 - Each testimonial displays the Topic they relate to, the date and the user's name.
 
+[Back to top](<#table-of-content>)
+
 **Add Testimonial**
 
 ![Add Testimonial](docs/readme_images/addtestimonial.png)
@@ -561,6 +604,8 @@ This page summarises the completed order.
 - The completed testimonial is automatically populated with the user's username and date underneath the body.
 
 ![Add Testimonial](docs/readme_images/testimonialadded.png)
+
+[Back to top](<#table-of-content>)
 
 **Edit Testimonial**
 
@@ -574,6 +619,7 @@ This page summarises the completed order.
 
 ![Edit Testimonial](docs/readme_images/edittestisuces.png)
 
+[Back to top](<#table-of-content>)
 
 **Delete Testimonial**
 
@@ -597,6 +643,8 @@ This page summarises the completed order.
 - The form contains a drop down menu where the user can select the type of enquiry from a list so that the site owner knows what the enquiry is about.
 - The user must fill out all the fields that have an Asterix. If the form is submitted with any of these fields left blank or with just whitespace then an error message will appear above that particular field, notifying the user of the issue.
 - When the form is submitted, the user receives an email confirmation of their enquiry so that they have a record of it.
+
+[Back to top](<#table-of-content>)
 
 ### Enquiries Dashboard
 
@@ -629,6 +677,8 @@ This page summarises the completed order.
 
 ![Edit Review](docs/readme_images/reviewadded.png)
 
+[Back to top](<#table-of-content>)
+
 **Edit Review**
 
 ![Edit Review](docs/readme_images/editreview.png)
@@ -640,6 +690,7 @@ This page summarises the completed order.
 - The user will receive a success message notifying them that the Review has been successfully updated.
 ![Edit Review](docs/readme_images/reviewupdated.png)
 
+[Back to top](<#table-of-content>)
 
 **Delete Review**
 
@@ -676,6 +727,8 @@ A customer of E Shop would be someone who is most likely an adult who is interes
 
 A number of different marketing strategies have been utilised to promote E Shop including SEO, content marketing, social media marketing and email marketing. Each of these strategies have been discussed individually below:  
 
+[Back to top](<#table-of-content>)
+
 ### SEO
 Several SEO techniques were undertaken in order to ensure the site ranks highly in search engine results:
 
@@ -696,6 +749,8 @@ The most relevant keywords have been added to the site's meta-keywords and meta-
 ![Keywords](docs/readme_images/external-links.png)
 
 Included in the site footer are links to other high quality relevant websites including Houzz, Institute of Designers Ireland, and The Interiors Association. These links show search engines that the page is of good quality improving the site's ranking further. 
+
+[Back to top](<#table-of-content>)
 
 **Building Trust:**
 
@@ -776,6 +831,8 @@ DATABASES = {
 
 - Push these changes to Github.
 
+[Back to top](<#table-of-content>)
+
 ### Update Heroku Config Vars
 Add the following Config Vars in Heroku:
 
@@ -843,6 +900,8 @@ The site is now live and operational.
 - Go to the 'Access Control List' section click edit and enable List for Everyone (public access) and accept the warning box.
 
 
+[Back to top](<#table-of-content>)
+
 ### IAM
 - From the 'Services' menu, search IAM and select it.
 - Once on the IAM page, click 'User Groups' from the side bar, then click 'Create group'. Choose a name and click 'Create'.
@@ -867,6 +926,7 @@ The site is now live and operational.
 - Keep clicking 'Next' until you reach the 'Create user' button and click that.
 - Download the CSV file which contains the AWS_SECRET_ACCESS_KEY and your AWS_ACCESS_KEY_ID needed in the Heroku variables as per above list and also in your env.py.
 
+[Back to top](<#table-of-content>)
 
 ### Connecting S3 to Django 
 - Go back to your IDE and install 2 more requirements:
@@ -949,6 +1009,8 @@ To clone this repository follow the below steps:
 - CSS3
 - Javascript
 
+[Back to top](<#table-of-content>)
+
 ## Frameworks - Libraries - Programs Used
 - [Django](https://www.djangoproject.com/): Main python framework used in the development of this project
 - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/installation.html): authentication library used to create the user accounts
@@ -999,3 +1061,5 @@ To clone this repository follow the below steps:
 - Special thanks to my mentor **Alan Bushell** for his committed support and guidance at the end of the Project. I wish we had met at the beginning of my course.
 - Many thanks to my facilitator **Kay Welfare** for helping me always in all kinds of circumstances. 
 - Thanks to The Code Institute Slack community for their quick responses and constructive feedback.
+
+[Back to top](<#table-of-content>)
