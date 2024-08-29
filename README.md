@@ -255,7 +255,7 @@ The Lato font is the main font used for the body of the website. This font was i
 [Back to top](<#table-of-content>)
 
 ## Agile Methodology
-Github projects was used to manage the development process using an agile approach. Please see link to project board [here](https://github.com/users/)
+Github projects was used to manage the development process using an agile approach. Please see link to project board [here](https://github.com/users/Marcopolo1975/projects/8)
 
 
 The 5 Epics listed above were documented within the Github project as Milestones. A Github Issue was created for each User Story which was then allocated to a milestone(Epic). Each User Story has defined acceptance criteria to make it clear when the User Story has been completed. The acceptance criteria are further broken down into tasks to facilitate the User Story's execution.
