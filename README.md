@@ -721,7 +721,7 @@ Custom Error Pages were created to give the user more information on the error a
 ## Business Model
 
 E Shop's Business Model is Business to Consumer (B2C). Products and services are sold directly from E Shop to consumers who are the end-users. 
-A customer of E Shop would be someone who is most likely an adult who is interested in buying luxurious interior products and high end interior design services.
+A customer of E Shop would be someone who is most likely an adult who is interested in buying Quailty products in good prices.
 
 ## Marketing Strategy
 
@@ -748,7 +748,7 @@ The most relevant keywords have been added to the site's meta-keywords and meta-
 
 ![Keywords](docs/readme_images/external-links.png)
 
-Included in the site footer are links to other high quality relevant websites including Houzz, Institute of Designers Ireland, and The Interiors Association. These links show search engines that the page is of good quality improving the site's ranking further. 
+Included in the site footer are links to other high quality relevant websites including Amazon, Google Shipping, etsy, Temu, Shopify and Ebay. These links show search engines that the page is of good quality improving the site's ranking further. 
 
 [Back to top](<#table-of-content>)
 
