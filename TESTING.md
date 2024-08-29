@@ -340,6 +340,9 @@ All HTML pages were run through the [W3C HTML Validator](https://validator.w3.or
 | Add Testimonial                | N/A        | No Errors |
 | Edit Testimonial               | N/A        | No Errors |
 | Delete Testimonial             | N/A        | No Errors |
+| Reviews                        | No Errors  | No Errors |
+| Add Reviews                    | No Errors  | No Errors |
+| Edit/delete Review             | No Errors  | No Errors |
 | Contact                        | No Errors  | No Errors |
 | Enquiries Dashboard            | N/A        | No Errors |
 | Enquiry Detail                 | N/A        | No Errors |
