@@ -28,7 +28,7 @@ The live link can be found here - [E Shop](https://e-shop-app-0892571914c8.herok
   * [User Authentication](#user-authentication)
   * [Form Validation](#form-validation)
   * [Database Security](#database-security)
-  * [Custom error pages:](#custom-error-pages-)
+  * [Custom error pages:](#custom-error-pages)
 - [Features](#features)
   * [Header](#header)
   * [Footer](#footer)
