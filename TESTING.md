@@ -1,5 +1,6 @@
 # Testing
 
+# Table of Content
 - [User Story Testing](#user-story-testing)
 - [Validator Testing](#validator-testing)
   * [HTML](#html)
@@ -13,7 +14,7 @@
   * [Site Navigation](#site-navigation)
   * [Home Page](#home-page)
   * [All Auth Pages](#all-auth-pages)
-  * [Products](#home-decor)
+  * [Products](#products)
   * [Product Detail](#product-detail)
   * [Products Management](#products-management)
   * [Bag](#bag)
