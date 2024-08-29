@@ -895,7 +895,7 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 
 **Deployment to Heroku**
 
-while deployment on heroku i i faced an complexed error. it was constantly showing up following error when attempting to deploy. 
+After connecting my Project to AWS s3 Bucket, while deployment on heroku i faced an complexed error. it was constantly showing up following error when attempting to deploy. 
 
 **Error**
 
