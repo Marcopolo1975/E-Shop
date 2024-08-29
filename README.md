@@ -720,7 +720,7 @@ Custom Error Pages were created to give the user more information on the error a
 
 ## Business Model
 
-E Shop's Business Model is Business to Consumer (B2C). Products and services are sold directly from E Shop to consumers who are the end-users. 
+E Shop's Business Model is Business to Consumer (B2C). Products  are sold directly from E Shop to consumers who are the end-users. 
 A customer of E Shop would be someone who is most likely an adult who is interested in buying Quailty products in good prices.
 
 ## Marketing Strategy
@@ -754,7 +754,7 @@ Included in the site footer are links to other high quality relevant websites in
 
 **Building Trust:**
 
-In order to build brand trust, a testimonial page for interior design services has been included in the site with a link to the page being included in the page footer as well as the main nav bar. 
+In order to build brand trust, a testimonial page for Our products and services has been included in the site with a link to the page being included in the page footer as well as the main nav bar. 
 
 The page footer also includes links to the privacy policy to inform users about how their data is being collected and processed.
 
@@ -767,7 +767,7 @@ A sitemap file with a list of important page URLs was created to ensure that sea
 A robots.txt file was created to tell search engines where they are not allowed to go on the website. This improves SEO by increasing the quality of the site
 
 ### Content marketing 
-The site showcases high quality images of previous interior design projects projects in order to attract potential new clients. The photos allow the business to show off their expertise and style and build up trust with the customer.
+The site showcases high quality images of Products in order to attract potential new clients. The photos allow the business to show off their expertise and style and build up trust with the customer.
 
 ### Social Media Marketing 
 For this site, a Facebook business page has been created for organic social media marketing. The Facebook page includes a 'Shop Now' button which takes the user to the E Shop website. The page pairs well with the content media marketing on the main site as images of previous projects and new product arrivals can be shared easily.
@@ -775,7 +775,7 @@ For this site, a Facebook business page has been created for organic social medi
 - [Facebook Page](https://www.facebook.com/profile.php?id=61563642210377)
  ![](docs/readme_images/facebook.png)
 ### Email Marketing
-Visitors to the site can sign up to the newsletter and do not need to have an account to do so. A signup box is included in the footer of the site. This allows the business to share news with customers and potential customers including new products/services and special offers. Mailchimp was used to create this service. 
+Visitors to the site can sign up to the newsletter and do not need to have an account to do so. A signup box is included in the footer of the site. This allows the business to share news with customers and potential customers including new product and special offers. Mailchimp was used to create this service. 
 
 [Back to top](<#table-of-content>)
 
