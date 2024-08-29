@@ -656,7 +656,7 @@ This page summarises the completed order.
 
 [Back to top](<#table-of-content>)
 
-### Error Pages
+### Custom Error Pages
 Custom Error Pages were created to give the user more information on the error and to guide them back to the site.
 
 ![404 error](docs/readme_images/errorpage404.png)
