@@ -371,7 +371,7 @@ The only errors displayed (as per below screenshot) can be ignored. The majority
 
 ![Python Linter Errors](docs/readme_images/pythontest.png) ![Python Linter Errors](docs/readme_images/pythontest1.png)
 
-### Lighthouse
+### PageSpeed Insights
 
 Lighthouse validation was run on all pages in order to check accessibility and performance. Many warnings were fixed including 'Background and foreground colours do not have a sufficient contrast ratio' and the below scores were achieved.
 
@@ -379,28 +379,30 @@ Lighthouse validation was run on all pages in order to check accessibility and p
 |--------------------------------|:------------:|:-------------:|:---------------:|:---:|
 |                                |              |               |                 |     |
 | Desktop                        |              |               |                 |     |
-| Home                           |           98 |           100 |             100 | 100 |
-| Products                       |           98 |           100 |             100 | 100 |
-| Product Detail                 |           98 |            98 |             100 | 100 |
-| Add Product                    |           99 |           100 |             100 | 100 |
-| Edit Product                   |           99 |           100 |             100 | 100 |
-| Confirm Delete Product         |           99 |           100 |             100 | 100 |
-| Bag                            |           98 |            98 |             100 | 100 |
-| Checkout                       |           94 |            96 |             100 | 100 |
-| Checkout Success               |           99 |            98 |             100 | 100 |
-| Profile                        |           98 |           100 |             100 | 100 |
-| Order History                  |           97 |            98 |             100 | 100 |
-| Testimonials                   |           99 |            98 |             100 | 100 |
-| Add Testimonial                |           99 |           100 |             100 | 100 |
-| Edit Testimonial               |           99 |           100 |             100 | 100 |
-| Delete Testimonial             |           99 |           100 |             100 | 100 |
-| Contact                        |           99 |           100 |             100 | 100 |
-| Enquiries Dashboard            |           99 |           100 |             100 | 100 |
-| Enquiry Detail                 |           99 |           100 |             100 | 100 |
-| Sign In                        |           99 |            98 |              98 | 100 |
-| Sign Up                        |           99 |            98 |             100 | 100 |
-| Log Out                        |           99 |           100 |             100 | 100 |
-| Password Reset                 |           98 |           100 |             100 | 100 |
+| Home                           |           87 |            86 |              97 | 100 |
+| Products                       |           71 |            78 |              91 | 100 |
+| Product Detail                 |           88 |            98 |              99 | 100 |
+| Add Product                    |           89 |            87 |             100 | 100 |
+| Edit Product                   |           89 |            88 |             100 | 100 |
+| Confirm Delete Product         |           89 |           100 |             100 | 100 |
+| Bag                            |           88 |            98 |             100 | 100 |
+| Checkout                       |           84 |            96 |              89 | 100 |
+| Checkout Success               |           89 |            98 |             100 | 100 |
+| Profile                        |           88 |           100 |             100 | 100 |
+| Order History                  |           87 |            98 |             100 | 100 |
+| Testimonials                   |           89 |            98 |             100 | 100 |
+| Add Testimonial                |           96 |           100 |             100 | 100 |
+| Edit Testimonial               |           89 |           100 |             100 | 100 |
+| Delete Testimonial             |           89 |           100 |             100 | 100 |
+| Contact                        |           89 |           100 |             100 | 100 |
+| Add Rewiew                     |           89 |            99 |             100 | 100 |
+| Rewiews                        |           89 |            88 |             100 | 100 |
+| Enquiries Dashboard            |           89 |           100 |             100 | 100 |
+| Enquiry Detail                 |           89 |           100 |             100 | 100 |
+| Sign In                        |           89 |            98 |              98 | 100 |
+| Sign Up                        |           89 |            98 |             100 | 100 |
+| Log Out                        |           89 |           100 |             100 | 100 |
+| Password Reset                 |           88 |           100 |             100 | 100 |
 
 
 ## Device Testing
