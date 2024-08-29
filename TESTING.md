@@ -1,13 +1,13 @@
 # Testing
 
-# Table of Content
+## Table of Content
 - [User Story Testing](#user-story-testing)
 - [Validator Testing](#validator-testing)
   * [HTML](#html)
   * [CSS](#css)
   * [JSHINT](#jshint)
   * [Python Validation - Pycodestyle](#python-validation---pycodestyle)
-  * [Lighthouse](#pageSpeed-insights)
+  * [PageSpeed](#pageSpeed-insights)
 - [Device Testing](#device-testing)
 - [Browser Testing](#browser-testing)
 - [Manual Testing](#manual-testing)
@@ -65,6 +65,8 @@
 ![products](docs/readme_images/spacialofferslink.png)
 ![Categories](docs/readme_images/spacisloffers.png)
  
+ [Back to top](<#table-of-content>)
+
 *As a shopper I can search all products so that I can find what I am looking for*
 - Located above the navbar is a search bar. On smaller screens, this bar becomes a search icon which when clicked will drop down the full bar. Any searched word will match itself to any text in the product's title, or description and display the results on the product's page.
 
@@ -82,6 +84,8 @@
 
 ![Testimonials](docs/readme_images/testimoniallink.png)
 ![Testimonials](docs/readme_images/testimonialspage.png)
+
+[Back to top](<#table-of-content>)
 
 ### EPIC | User Account and Profile
 *As a site user I can register an account so that I can have a personal account.*
@@ -115,6 +119,8 @@
 - When placing a new order, a checkbox under the delivery information can be checked to save the information just added.
 
 ![Delivery Details](docs/readme_images/myprofile.png)
+
+[Back to top](<#table-of-content>)
 
 *As a site user I can view my order history so that I can remember what purchases I've made.*
 
@@ -155,6 +161,7 @@
 ![shopping bag](docs/readme_images/shoppingbag.png)
 ![shopping bag](docs/readme_images/bagtotal.png)
 
+[Back to top](<#table-of-content>)
 
 *As a shopper I can adjust the quantity of individual products in my bag so that I can easily make changes before I purchase.*
 - When the user is viewing the shopping bag, they are able to adjust the quantity of each product line item and update the subtotal by clicking the update icon.
@@ -264,6 +271,8 @@
 
 [Back to top](<#table-of-content>)
 
+[Back to top](<#table-of-content>)
+
 *As a site user, I can read Reviews left by other customers so I see what feedback they gave on the Products.
 
 
@@ -306,6 +315,8 @@
 - In the footer is a 'Newsletter' section. Here the user can input their email address to sign up.
 
 ![footer](docs/readme_images/footer.png)
+
+[Back to top](<#table-of-content>)
 
 ## Validator Testing
 
@@ -703,6 +714,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Continue shopping button                                      | Click               | Redirect to products page                              | Pass      |
 | Secure Checkout button                                        | Click               | Redirect to checkout page                              | Pass      |
 
+[Back to top](<#table-of-content>)
+
 ### Checkout
 
 | Element                             | Action                          | Expected Result                                                     | Pass/Fail |
@@ -794,6 +807,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Delete Testimonial link | Display | Only display if user is the author of the testimonial                              | Pass      |
 
 
+[Back to top](<#table-of-content>)
+
 ### Testimonial Management
 
 | Add Testimonial                     |                       |                                                                                                                             |           |
@@ -845,6 +860,8 @@ The Website was tested on Google Chrome, Firefox, Safari browsers with no issues
 | Submit button(form valid)     | Click                 | Redirect to home Page                                                               | Pass      |
 | Submit button(form valid)     | Click                 | Success message appears informing the superuser that the enquiry has been submitted | Pass      |
 | Submit button(form valid)     | Click                 | User receives confirmation email about their enquiry                                | Pass      |
+
+[Back to top](<#table-of-content>)
 
 ### Enquiries Dashboard
 
